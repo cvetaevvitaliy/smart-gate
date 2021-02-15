@@ -1,0 +1,2 @@
+/usr/local/bin/arm-none-eabi-ar qc librtt_nrf52832_xxAA.a  CMakeFiles/rtt_nrf52832_xxAA.dir/src/SEGGER_RTT.c.obj CMakeFiles/rtt_nrf52832_xxAA.dir/src/SEGGER_RTT_printf.c.obj
+/usr/local/bin/arm-none-eabi-ranlib librtt_nrf52832_xxAA.a

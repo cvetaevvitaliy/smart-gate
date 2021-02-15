@@ -1,0 +1,3 @@
+ToolSet: 1.0 (local)Options: 
+
+Options:-DSDK_ROOT=/Users/vitaliy/Downloads/nrf5_SDK_for_Mesh_v5.0.0_src

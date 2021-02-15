@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v17.x.x/nRF5_SDK_17.0.2_d674dde.zip'
+tag=''

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="Remote GDB Server (9f9924da-1b68-48af-9ff9-0f5d263bf0ed)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/ble_advertising/ble_advertising.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/ble_services/ble_dfu/ble_dfu.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/ble_services/ble_dfu/ble_dfu_bonded.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/ble_services/ble_dfu/ble_dfu_unbonded.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/common/ble_advdata.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/common/ble_conn_params.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/common/ble_conn_state.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/common/ble_srv_common.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/gatt_cache_manager.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/gatts_cache_manager.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/id_manager.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/peer_data_storage.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/peer_database.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/peer_id.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/peer_manager.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/pm_buffer.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/security_dispatcher.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/security_manager.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/atomic/nrf_atomic.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/atomic_fifo/nrf_atfifo.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/atomic_flags/nrf_atflags.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/bootloader/dfu/nrf_dfu_svci.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/experimental_section_vars/nrf_section_iter.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/fds/fds.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/fstorage/nrf_fstorage.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/fstorage/nrf_fstorage_sd.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/pwm/app_pwm.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/pwr_mgmt/nrf_pwr_mgmt.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/util/app_error.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/util/app_error_handler_gcc.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/util/app_util_platform.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/softdevice/common/nrf_sdh.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/softdevice/common/nrf_sdh_ble.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/softdevice/common/nrf_sdh_soc.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/integration/nrfx/legacy/nrf_drv_ppi.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/modules/nrfx/drivers/src/nrfx_gpiote.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/modules/nrfx/drivers/src/nrfx_ppi.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/modules/nrfx/drivers/src/nrfx_timer.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/modules/nrfx/mdk/system_nrf52.c" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Remote GDB Server (c630a5d9-43d6-4d69-84c2-c6c1577cf6c4)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/ble_advertising/ble_advertising.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/ble_services/ble_dfu/ble_dfu.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/ble_services/ble_dfu/ble_dfu_bonded.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/ble_services/ble_dfu/ble_dfu_unbonded.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/common/ble_advdata.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/common/ble_conn_params.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/common/ble_conn_state.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/common/ble_srv_common.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/gatt_cache_manager.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/gatts_cache_manager.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/id_manager.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/peer_data_storage.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/peer_database.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/peer_id.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/peer_manager.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/pm_buffer.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/security_dispatcher.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/ble/peer_manager/security_manager.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/atomic/nrf_atomic.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/atomic_fifo/nrf_atfifo.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/atomic_flags/nrf_atflags.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/bootloader/dfu/nrf_dfu_svci.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/experimental_section_vars/nrf_section_iter.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/fds/fds.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/fstorage/nrf_fstorage.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/fstorage/nrf_fstorage_sd.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/pwm/app_pwm.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/pwr_mgmt/nrf_pwr_mgmt.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/util/app_error.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/util/app_error_handler_gcc.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/libraries/util/app_util_platform.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/softdevice/common/nrf_sdh.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/softdevice/common/nrf_sdh_ble.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/components/softdevice/common/nrf_sdh_soc.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/integration/nrfx/legacy/nrf_drv_ppi.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/modules/nrfx/drivers/src/nrfx_gpiote.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/modules/nrfx/drivers/src/nrfx_ppi.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/modules/nrfx/drivers/src/nrfx_timer.c" web="/" />
+            <mapping local="$PROJECT_DIR$/../nRF5_SDK_17.0.2_d674dde/modules/nrfx/mdk/system_nrf52.c" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

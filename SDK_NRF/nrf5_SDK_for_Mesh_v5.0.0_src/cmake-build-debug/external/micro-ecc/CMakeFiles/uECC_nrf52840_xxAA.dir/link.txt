@@ -1,0 +1,2 @@
+/usr/local/bin/arm-none-eabi-ar qc libuECC_nrf52840_xxAA.a  CMakeFiles/uECC_nrf52840_xxAA.dir/uECC.c.obj
+/usr/local/bin/arm-none-eabi-ranlib libuECC_nrf52840_xxAA.a

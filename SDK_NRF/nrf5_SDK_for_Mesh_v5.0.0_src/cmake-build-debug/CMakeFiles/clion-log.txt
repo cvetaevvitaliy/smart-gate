@@ -1,0 +1,13 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DPLATFORM=nrf52840_xxAA -G "CodeBlocks - Unix Makefiles" /Users/vitaliy/Downloads/nrf5_SDK_for_Mesh_v5.0.0_src
+-- Configuring CMake for nRF5 SDK for Bluetooth Mesh 5.0.0
+-- SDK_ROOT=/Users/vitaliy/Downloads/nrf5_SDK_for_Mesh_v5.0.0_src/../nRF5_SDK_17.0.2_d674dde --- set with command line ARG
+-- PC-Lint executable not found. Linting disabled.
+-- SDK: nRF5_SDK_17.0.2_d674dde
+-- Platform: nrf52840_xxAA
+-- Arch: cortex-m4f
+-- SoftDevice: s140_7.2.0
+-- Board: pca10056
+-- Mscgen not found. Cannot generate message sequence charts in documentation.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/vitaliy/Downloads/nrf5_SDK_for_Mesh_v5.0.0_src/cmake-build-debug

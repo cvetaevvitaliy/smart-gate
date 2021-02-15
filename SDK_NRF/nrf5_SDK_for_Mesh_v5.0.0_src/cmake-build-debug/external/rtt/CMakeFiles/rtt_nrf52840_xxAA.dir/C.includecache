@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../external/rtt/include/SEGGER_RTT.h
+SEGGER_RTT_Conf.h
+../external/rtt/include/SEGGER_RTT_Conf.h
+
+../external/rtt/include/SEGGER_RTT_Conf.h
+intrinsics.h
+-
+
+/Users/vitaliy/Downloads/nrf5_SDK_for_Mesh_v5.0.0_src/external/rtt/src/SEGGER_RTT.c
+SEGGER_RTT.h
+/Users/vitaliy/Downloads/nrf5_SDK_for_Mesh_v5.0.0_src/external/rtt/src/SEGGER_RTT.h
+string.h
+-
+
+/Users/vitaliy/Downloads/nrf5_SDK_for_Mesh_v5.0.0_src/external/rtt/src/SEGGER_RTT_printf.c
+SEGGER_RTT.h
+/Users/vitaliy/Downloads/nrf5_SDK_for_Mesh_v5.0.0_src/external/rtt/src/SEGGER_RTT.h
+SEGGER_RTT_Conf.h
+/Users/vitaliy/Downloads/nrf5_SDK_for_Mesh_v5.0.0_src/external/rtt/src/SEGGER_RTT_Conf.h
+stdlib.h
+-
+stdarg.h
+-
+
