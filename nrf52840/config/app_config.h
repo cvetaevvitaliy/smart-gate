@@ -78,6 +78,9 @@
 #define GPIOTE_ENABLED 1
 #define NRFX_GPIOTE_ENABLED 1
 
+#define NRFX_SPIM_ENABLED 1
+#define NRFX_SPIM1_ENABLED 1
+
 
 /** @} end of APP_SDK_CONFIG */
 

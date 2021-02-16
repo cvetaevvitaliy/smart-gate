@@ -8,6 +8,8 @@
 
 #include "log.h"
 #include "nrf_drv_clock.h"
+#include "spi.h"
+#include "ws2812.h"
 
 /** If you need Jink RTT logger please defined LOGGER_RTT in CMake */
 #if  defined(LOGGER_RTT)
@@ -39,16 +41,25 @@ int main(void)
     bsp_board_init(BSP_INIT_LEDS);
 
     __LOG(LOG_SRC_APP, LOG_LEVEL_INFO, "App init\n");
+    ws281x_init();
 
-    uint32_t tmp = 0;
     while (1)
     {
-        for (int i = 0; i < LEDS_NUMBER; i++)
+
+        for (int i = 0; i < 7; ++i)
         {
-            bsp_board_led_invert(i);
-            nrf_delay_ms(500);
-            tmp++;
+            ws28xx_set_color_array_and_other_off(i, i, ws28xx_Blue);
+            ws281x_show();
+            nrf_delay_ms(50);
         }
+
+        for (int i = 7; i > 0; --i)
+        {
+            ws28xx_set_color_array_and_other_off(i, i, ws28xx_Blue);
+            ws281x_show();
+            nrf_delay_ms(50);
+        }
+
     }
 }
 

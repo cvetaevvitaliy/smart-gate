@@ -1,3 +1,4 @@
+add_definitions(-DNRFX_SPIM_ENABLED=1)
 
 set(SRC_UART
         "${SDK_ROOT}/components/libraries/fifo/app_fifo.c"
@@ -15,6 +16,12 @@ set(INC_UART
         "${SDK_ROOT}/modules/nrfx/drivers/include"
         "${SDK_ROOT}/components/libraries/fifo")
 
+
+set(SRC_SPIM
+        "${SDK_ROOT}/modules/nrfx/drivers/src/nrfx_spim.c")
+
+set(INC_SPIM
+        "${SDK_ROOT}/modules/nrfx/drivers/include")
 
 set(SRC_USB
         "${SDK_ROOT}/components/libraries/usbd/app_usbd.c"
@@ -47,6 +54,7 @@ set(INC_USB
 set(nRF5_SDK_17.0.2_d674dde_SOURCE_FILES
         "${SRC_UART}"
         "${SRC_USB}"
+        "${SRC_SPIM}"
         "${SDK_ROOT}/modules/nrfx/mdk/gcc_startup_nrf52840.S"
         "${SDK_ROOT}/integration/nrfx/legacy/nrf_drv_clock.c"
         "${SDK_ROOT}/modules/nrfx/drivers/src/nrfx_clock.c"
@@ -77,6 +85,7 @@ set(nRF5_SDK_17.0.2_d674dde_SOURCE_FILES
 
 set(nRF5_SDK_17.0.2_d674dde_INCLUDE_DIRS
         "${INC_UART}"
+        "${INC_USB}"
         "${INC_USB}"
         "${SDK_ROOT}/integration/nrfx"
         "${SDK_ROOT}/components/libraries/util"

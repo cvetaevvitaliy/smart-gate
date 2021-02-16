@@ -15,14 +15,17 @@ set(SRC_MAIN
         "${SDK_ROOT}/components/boards/boards.c"
         "${CMAKE_CURRENT_SOURCE_DIR}/logger/logger.c"
         "${CMAKE_CURRENT_SOURCE_DIR}/logger/tinyprintf.c"
-        "${CMAKE_CURRENT_SOURCE_DIR}/logger/usb-serial.c")
+        "${CMAKE_CURRENT_SOURCE_DIR}/logger/usb-serial.c"
+        "${CMAKE_CURRENT_SOURCE_DIR}/neopixel/spi.c"
+        "${CMAKE_CURRENT_SOURCE_DIR}/neopixel/ws2812.c")
 
 set(INC_MAIN
         "${CMAKE_CURRENT_SOURCE_DIR}"
         "${CMAKE_CURRENT_SOURCE_DIR}/config"
         "${CMAKE_CURRENT_SOURCE_DIR}/include"
         "${CMAKE_CURRENT_SOURCE_DIR}/common/include"
-        "${CMAKE_CURRENT_SOURCE_DIR}/logger")
+        "${CMAKE_CURRENT_SOURCE_DIR}/logger"
+        "${CMAKE_CURRENT_SOURCE_DIR}/neopixel/")
 
 # ********************************************************************
 
